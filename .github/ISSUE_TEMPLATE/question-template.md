@@ -7,6 +7,50 @@ assignees: ''
 
 ---
 
+Please read this before posting.
+
+We ask you to include certain information when you ask a question
+and to search already existing similar questions and try their solutions before posting.
+The reason for this is that we want to be able to help as many students as possible to solve their issues.
+If you just include a screenshot and title your question "Help",
+we have to spend time trying to figure out what you actually want help with instead of helping,
+we can't copy your code to troubleshoot it on our machines,
+and other students with related issues can't find your question since text in the screenshots is not searchable.
+This takes time away not only from yourself,
+but also from your classmates,
+and if many students do this we will have to leave some questions unanswered.
+
+Troubleshooting code can be tedious and sometimes even frustrating,
+so we have designed this issue template to streamline the support you receive.
+You can find an abbreviated structure for each question in the summary section below
+and more details on how to ask good questions in the following section.
+If anything is unclear,
+don't hesitate to reach out to us either here or via the TA email.
+
+A nicely rendered version of this template can be found here https://github.com/BME1478H/Winter2020class/blob/master/.github/ISSUE_TEMPLATE/question-template.md
+
+# Summary
+
+1. Create a descriptive title so it is clear what you are asking.
+2. Paste any code your are executing as text.
+    - If your code includes functions or classes, also include their definitions.
+    - Use markdown code blocks for proper indentation and syntax highlighting
+      by adding a line with three backticks before and after your code like this
+      (if you are viewing the rendered version, you can see that this has been formatted as a code block):
+    
+        ```python
+        # Include your code here
+        for i in range(3):
+            print(i)
+        ```
+
+3. Describe what you don't understand or what went wrong,
+   including any error message and traceback message.
+
+---
+
+# Details
+
 Click the "Preview" tab above to view the rendered version of this issue template.
 
 Delete this text after you have read through it and are replace it with your question.
@@ -43,6 +87,7 @@ and the included information will ensure that you get help as quickly as possibl
    as described in this guide on how to create a [Minimal Reproducible Example].
       - Text is preferred over a screenshot since it is easy to copy and paste,
         which facilitates reproducing your problem.
+        If a screenshot is needed we will ask for it specifically.
       - Inline code should be surrounded by backticks for clarity,
         which will be `formatted like this` on GitHub.
         Longer blocks of code with multiple lines should be surrounded by triple backticks.
@@ -66,6 +111,10 @@ As a final note,
 remember that this GitHub issue list is public,
 so if you have a sensitive question,
 please send an email to the TA email address instead.
+
+Remebmer to delete this text after you have read through it and are replace it with your question.
+This template will appear every time you open a new issue,
+so you don't need to memorize it.
 
 [this link]: https://guides.github.com/features/mastering-markdown/
 [this StackOverflow post]: https://stackoverflow.com/help/how-to-ask
